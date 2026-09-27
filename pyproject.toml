@@ -1,0 +1,12 @@
+[project]
+name = "recording-bean"
+version = "0.1.0"
+description = "Personal recording intake and evidence-driven meeting pipeline"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+nvidia = ["nvidia-riva-client"]
+
+[tool.unittest]
+start-directory = "tests"

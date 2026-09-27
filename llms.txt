@@ -1,0 +1,21 @@
+# RecordingBean / 录音豆
+
+> Unofficial self-hosted D3200 / soundcore Work recorder sync for HarmonyOS, Android, and iOS. Native clients transfer recordings to a self-hosted Python server; optional NVIDIA NIM or compatible ASR, LLM summarization, and Feishu / Lark Docs publishing run as separate stages. This is not a public API or an official vendor product.
+
+## Start here
+
+- [English README](https://github.com/Eliqi797/recording-bean/blob/main/README.en.md): project scope, setup, platform support, and agent entry points.
+- [Chinese README](https://github.com/Eliqi797/recording-bean/blob/main/README.md): project scope, features, status, and source map.
+- [Chinese user guide](https://github.com/Eliqi797/recording-bean/blob/main/docs/USER_GUIDE.md): install, configure, sync the first recording, and troubleshoot.
+- [Chinese agent guide](https://github.com/Eliqi797/recording-bean/blob/main/docs/AGENT_GUIDE.md): safe API use, read-only checks, upload and processing semantics.
+- [Coding-agent instructions](https://github.com/Eliqi797/recording-bean/blob/main/AGENTS.md): repository layout, invariants, and local checks.
+- [API v1](https://github.com/Eliqi797/recording-bean/blob/main/docs/API.md): authentication, upload, recordings, stages, and live sessions.
+- [Architecture](https://github.com/Eliqi797/recording-bean/blob/main/docs/ARCHITECTURE.md): device, native clients, server, and trust boundaries.
+- [Platform status](https://github.com/Eliqi797/recording-bean/blob/main/docs/CROSS_PLATFORM.md): verified and unverified iOS / Android behavior.
+
+## Important boundaries
+
+- Device originals remain on the D3200. Phone audio is cleaned only after a matching durable cloud receipt.
+- The cloud service is single-user and requires its own HTTPS deployment and access token.
+- Real provider calls, Feishu publication, long recordings, live latency, and backup recovery need separate verification.
+- GitHub repository visibility controls who can read these files. This index helps agents navigate the project; it does not guarantee search-engine or AI-answer inclusion.

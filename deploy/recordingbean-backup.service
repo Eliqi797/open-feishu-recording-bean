@@ -1,0 +1,7 @@
+[Unit]
+Description=RecordingBean consistent independent backup
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/recordingbean/backup-env
+ExecStart=/opt/recordingbean/deploy/backup-stop-copy.sh
+UMask=0077

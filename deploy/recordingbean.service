@@ -1,0 +1,30 @@
+[Unit]
+Description=RecordingBean audio backend
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=recordingbean
+Group=recordingbean
+WorkingDirectory=/opt/recordingbean
+EnvironmentFile=/etc/recordingbean/env
+Environment=PATH=/opt/recordingbean/.venv/bin:/opt/recordingbean/bin:/usr/bin:/bin
+ExecStart=/opt/recordingbean/.venv/bin/python -m bean.server --data /var/lib/recordingbean --port 8765
+Restart=on-failure
+RestartSec=10
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/recordingbean
+TimeoutStopSec=45
+KillMode=control-group
+MemoryHigh=256M
+MemoryMax=384M
+CPUQuota=75%
+TasksMax=96
+
+[Install]
+WantedBy=multi-user.target

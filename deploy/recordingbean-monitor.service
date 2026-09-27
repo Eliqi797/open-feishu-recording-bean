@@ -1,0 +1,10 @@
+[Unit]
+Description=RecordingBean read-only health check
+After=recordingbean.service
+[Service]
+Type=oneshot
+User=recordingbean
+ExecStart=/opt/recordingbean/.venv/bin/python /opt/recordingbean/scripts/monitor.py --token-file /var/lib/recordingbean/access-token
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true

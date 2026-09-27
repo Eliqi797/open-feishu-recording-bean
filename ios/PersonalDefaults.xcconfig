@@ -1,0 +1,4 @@
+// Public builds remain unconfigured. The optional local file is generated privately.
+RECORDINGBEAN_PERSONAL_ORIGIN_B64 =
+RECORDINGBEAN_PERSONAL_TOKEN_B64 =
+#include? "PersonalDefaults.local.xcconfig"

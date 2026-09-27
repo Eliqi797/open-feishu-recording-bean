@@ -1,0 +1,16 @@
+# Replace hostname and set PUBLIC_ORIGIN=https://your-hostname in the service environment.
+# Install Caddy yourself. Do not publish until credentials and independent recovery are ready.
+recordings.example.com {
+    request_body {
+        max_size 5MB
+    }
+    header Strict-Transport-Security "max-age=31536000"
+    reverse_proxy 127.0.0.1:8765 {
+        header_up Host {host}
+        transport http {
+            read_timeout 120s
+            write_timeout 120s
+        }
+    }
+    # No access log: recording IDs and authorization must not enter logs.
+}

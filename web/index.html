@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>录音豆 · 工作台</title><link rel="stylesheet" href="/style.css"></head>
+<body><header><a href="/" class="brand"><span class="bean" aria-hidden="true"></span>录音豆 <span class="muted">/ 工作台</span></a><span class="tag">个人工作台</span></header>
+<main><section class="intro"><p class="eyebrow">YOUR RECORDINGS, IN ONE PLACE</p><h1>录音留存，进度可见。</h1><p>从音频保存到会议纪要，每一步都有明确结果。</p></section>
+<section id="login-panel" class="panel"><h2>打开你的工作台</h2><p>输入你的专属访问口令，查看和回听录音。</p><form id="login"><label for="token">访问口令</label><div class="inline"><input id="token" type="password" autocomplete="current-password" required><button>登录</button></div></form></section>
+<div id="workspace" hidden><section class="panel"><div class="section-head"><div><h2>保存一条录音</h2><p>也可以选择已有音频，上传后自动转写并生成纪要。</p></div><button id="logout" class="quiet">退出</button></div><form id="upload"><label for="audio-file">音频文件</label><input id="audio-file" type="file" accept="audio/wav,audio/ogg,audio/mpeg,audio/mp4,audio/flac" required><div class="inline"><button id="upload-button">上传并校验</button><span class="muted">中断后重新选择同一文件，可继续上传。</span></div><progress id="progress" max="100" value="0" aria-label="上传进度"></progress><p id="upload-status" role="status"></p></form></section>
+<section class="panel"><div class="section-head"><h2>录音记录</h2><button id="refresh" class="quiet">刷新</button></div><p id="empty" class="muted">还没有录音。上传后，文件和处理进度会显示在这里。</p><div id="recordings"></div></section>
+<section class="panel"><h2>接入检查</h2><div id="capabilities" class="capabilities"></div><p class="muted">“已配置”表示服务参数齐备。AI 转写、说话人区分和总结仍需人工核对；参考文字导入会单独标注来源。</p></section></div>
+<p id="notice" role="alert" aria-live="polite"></p></main><footer>原始录音独立保存 · 云端校验后再清理手机缓存 · 不删除录音豆原文件</footer><script type="module" src="/app.js"></script></body></html>

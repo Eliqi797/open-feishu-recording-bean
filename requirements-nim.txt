@@ -1,0 +1,8 @@
+# Installed by the user on macOS/Python 3.14; no model runtime is included.
+nvidia-riva-client==2.27.0
+grpcio==1.84.0
+grpcio-tools==1.81.1
+protobuf==6.33.5
+typing-extensions==4.16.0
+websockets==15.0.1
+setuptools==84.0.0
