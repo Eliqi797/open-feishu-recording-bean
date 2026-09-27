@@ -4,7 +4,7 @@
 
 RecordingBean（录音豆）是 D3200 / soundcore Work 录音设备的自托管同步与 AI 会议纪要项目。HarmonyOS、Android 和 iOS 客户端通过蓝牙连接设备、使用临时 Wi-Fi 高速导出录音，上传到自己的服务器；服务器再调用 NVIDIA NIM 或兼容 ASR、LLM 和飞书 / Lark Docs 接口完成转写、总结与文档归档。
 
-**适用范围：单人、单服务、自行部署；不是公共 SaaS。** 仓库无论是否公开都使用同一地址；公开前的检查见[可发现性与公开准备](docs/DISCOVERABILITY.md)。仓库可见性变化不影响服务运行；密钥、签名和录音数据始终另行保管。
+**适用范围：单人、单服务、自行部署；不是公共 SaaS。** 当前源码仓库为 Private；未来是否公开另行决定，公开前的检查见[可发现性与公开准备](docs/DISCOVERABILITY.md)。仓库可见性变化不影响服务运行；密钥、签名和录音数据始终另行保管。
 
 第一次使用请看[普通用户指南](docs/USER_GUIDE.md)；需要 Agent 协助部署、查询或开发时看[Agent 使用指南](docs/AGENT_GUIDE.md)和根目录 [`AGENTS.md`](AGENTS.md)。
 
@@ -22,11 +22,11 @@ RecordingBean（录音豆）是 D3200 / soundcore Work 录音设备的自托管�
 
 ## 获取源码
 
-仓库若为 Private，需要 GitHub 访问权限；公开后可用同一地址直接克隆：
+当前需要 GitHub 仓库访问权限；若以后公开，克隆地址保持不变：
 
 ```bash
-git clone https://github.com/Eliqi797/recording-bean.git
-cd recording-bean
+git clone https://github.com/Eliqi797/d3200-recording-bean.git
+cd d3200-recording-bean
 git config core.hooksPath .githooks
 ```
 
@@ -85,7 +85,7 @@ python3 scripts/check_repository.py
 
 ## 仓库不是什么
 
-GitHub 只保管源码、测试、图标和文档，不保存录音、数据库、API Key、飞书授权、手机访问口令、HarmonyOS 签名、安装包或私人诊断截图。服务升级不由 GitHub 自动触发；部署需要备份、检查版本及手动发布。公开同一仓库前必须检查**所有可达提交和分支**中的个人信息、协议引用授权与图标来源；检查记录见[公开准备](docs/DISCOVERABILITY.md)。
+GitHub 只保管源码、测试、图标和文档，不保存录音、数据库、API Key、飞书授权、手机访问口令、HarmonyOS 签名、安装包或私人诊断截图。服务升级不由 GitHub 自动触发；部署需要备份、检查版本及手动发布。未来公开当前源码仓库前必须检查**所有可达提交和分支**中的个人信息、协议引用授权与图标来源；检查记录见[公开准备](docs/DISCOVERABILITY.md)。
 
 ## 常见问题
 

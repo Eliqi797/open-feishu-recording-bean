@@ -4,7 +4,7 @@
 
 RecordingBean is an unofficial, self-hosted sync project for the D3200 / soundcore Work recorder. Native apps for HarmonyOS, Android, and iOS connect over Bluetooth, transfer recordings over the recorder's temporary Wi-Fi hotspot, and upload them to your own Python server. The server can then use NVIDIA NIM or a compatible speech-to-text API, an LLM, and Feishu / Lark Docs to produce transcripts and meeting notes.
 
-**Designed for one person running one service instance.** This is not a public SaaS product or an official soundcore, Feishu, or NVIDIA app. The repository uses the same URL regardless of visibility; see the [publication review](docs/DISCOVERABILITY.md) before making it public. Recordings, credentials, signing material, and server data must be stored outside Git.
+**Designed for one person running one service instance.** This is not a public SaaS product or an official soundcore, Feishu, or NVIDIA app. The source repository is currently private; publication is a later decision subject to the [publication review](docs/DISCOVERABILITY.md). Recordings, credentials, signing material, and server data must be stored outside Git.
 
 ## What it does
 
@@ -19,11 +19,11 @@ Some paths have been tested on personal phones and a private server, but long lo
 
 ## Get the source
 
-The repository URL does not change with visibility. A private repository requires GitHub access; a public one can be cloned directly:
+Cloning currently requires GitHub access to the private repository. The URL will remain the same if this source repository is made public later:
 
 ```bash
-git clone https://github.com/Eliqi797/recording-bean.git
-cd recording-bean
+git clone https://github.com/Eliqi797/d3200-recording-bean.git
+cd d3200-recording-bean
 git config core.hooksPath .githooks
 ```
 

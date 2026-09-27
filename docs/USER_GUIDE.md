@@ -28,8 +28,8 @@ RecordingBean（录音豆）是一个面向 D3200 / soundcore Work 录音设备�
 有仓库访问权限时运行；未来仓库公开后命令不变：
 
 ```bash
-git clone https://github.com/Eliqi797/recording-bean.git
-cd recording-bean
+git clone https://github.com/Eliqi797/d3200-recording-bean.git
+cd d3200-recording-bean
 python3 -m venv .venv
 cp .env.example .env
 .venv/bin/python -m bean.server --data data --port 8765
