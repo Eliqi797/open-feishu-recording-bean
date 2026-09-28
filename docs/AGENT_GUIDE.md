@@ -1,6 +1,6 @@
 # Agent 使用指南：RecordingBean / 录音豆
 
-本文给需要**理解、部署、测试或接入** RecordingBean 的 AI Agent 使用。项目是 D3200 / soundcore Work 录音设备的个人自托管同步链路：手机读取设备音频，服务器保存并按阶段调用 ASR、LLM 和飞书。它不是可匿名访问的公共 API，也没有多租户账号体系。普通用户从[使用指南](USER_GUIDE.md)开始；修改代码的 Agent 还应读取仓库根目录的 [`AGENTS.md`](../AGENTS.md)。
+本文给需要**理解、部署、测试或接入** RecordingBean 的 AI Agent 使用。首次进入仓库先看简短的 [Agent 入口](../AGENT_START.md)。项目是 D3200 / soundcore Work 录音设备的个人自托管同步链路：手机读取设备音频，服务器保存并按阶段调用 ASR、LLM 和飞书。它不是可匿名访问的公共 API，也没有多租户账号体系。普通用户从[使用指南](USER_GUIDE.md)开始；修改代码的 Agent 还应读取仓库根目录的 [`AGENTS.md`](../AGENTS.md)。
 
 ## 先判断自己要做哪件事
 

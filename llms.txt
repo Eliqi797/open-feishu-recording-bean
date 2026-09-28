@@ -2,8 +2,13 @@
 
 > Unofficial self-hosted D3200 / soundcore Work recorder sync for HarmonyOS, Android, and iOS. Native clients transfer recordings to a self-hosted Python server; optional NVIDIA NIM or compatible ASR, LLM summarization, and Feishu / Lark Docs publishing run as separate stages. This is not a public API or an official vendor product.
 
+Keywords: D3200 recorder, soundcore Work, 飞书录音豆, self-hosted recorder sync, audio transcription, speech-to-text, meeting notes, NVIDIA NIM ASR, Feishu Docs, Lark Docs, HarmonyOS, Android, iOS.
+
+Common questions: How do I sync D3200 recordings to my own server? Can NVIDIA NIM transcribe soundcore Work audio? How do I publish a transcript to Feishu? Can a browser replace the native recorder app?
+
 ## Start here
 
+- [Agent start](https://github.com/Eliqi797/d3200-recording-bean/blob/main/AGENT_START.md): 30-second system map, task routing, safety boundaries, and acceptance criteria.
 - [English README](https://github.com/Eliqi797/d3200-recording-bean/blob/main/README.en.md): project scope, setup, platform support, and agent entry points.
 - [Chinese README](https://github.com/Eliqi797/d3200-recording-bean/blob/main/README.md): project scope, features, status, and source map.
 - [Chinese user guide](https://github.com/Eliqi797/d3200-recording-bean/blob/main/docs/USER_GUIDE.md): install, configure, sync the first recording, and troubleshoot.
@@ -12,6 +17,9 @@
 - [API v1](https://github.com/Eliqi797/d3200-recording-bean/blob/main/docs/API.md): authentication, upload, recordings, stages, and live sessions.
 - [Architecture](https://github.com/Eliqi797/d3200-recording-bean/blob/main/docs/ARCHITECTURE.md): device, native clients, server, and trust boundaries.
 - [Platform status](https://github.com/Eliqi797/d3200-recording-bean/blob/main/docs/CROSS_PLATFORM.md): verified and unverified iOS / Android behavior.
+- [Integrations](https://github.com/Eliqi797/d3200-recording-bean/blob/main/docs/INTEGRATIONS.md): implemented provider and Feishu paths, with prerequisites and limits.
+- [Use cases](https://github.com/Eliqi797/d3200-recording-bean/blob/main/docs/USE_CASES.md): common D3200 and self-hosting questions.
+- [Alternatives](https://github.com/Eliqi797/d3200-recording-bean/blob/main/docs/ALTERNATIVES.md): neutral choice between official-app use and self-hosting responsibilities.
 
 ## Important boundaries
 
