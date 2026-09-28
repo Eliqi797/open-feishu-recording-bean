@@ -12,9 +12,9 @@ Open 飞书录音豆 is an unofficial **single-user, self-hosted** project, not 
 
 ## Why I built it
 
-I bought the 飞书录音豆 recorder to capture conversations and ideas whenever they happen. After recording, I still need to keep the original audio, check the transcript, and put useful notes into my own Feishu documents. I wanted to choose where recordings are stored, which ASR and LLM services process them, and how action items are organized. If an AI allowance or service plan changes, I want to keep using the recorder I already own.
+I bought the 飞书录音豆 recorder to capture conversations and ideas whenever they happen. But [the official AI transcription and notes workflow has free or bundled allowances and paid membership options](https://www.feishu.cn/content/article/7597268954498763996). As my usage grows, I do not want to keep buying the official AI membership just to process recordings from hardware I already own. **That is why I built Open 飞书录音豆: to run my own processing workflow without requiring the official paid AI plan.**
 
-Open 飞书录音豆 began as my personal workflow: sync the recorder to my own server, verify the complete file, then transcribe, summarize, and file it when configured. I later added HarmonyOS, Android, and iOS clients and made provider settings configurable, preparing the project to be shared with others who have similar needs in the future.
+My workflow syncs audio to my own server, verifies the complete file, then uses my chosen ASR and LLM services to create notes in my own Feishu documents. The project itself has no subscription fee. With an existing server and enough free API allowance, it can run without an additional payment for this workflow. Third-party APIs, cloud hosting, and domains may still cost money; **zero additional cost depends on the setup and usage**. I can keep using the recorder even if official allowances or plans change.
 
 ## What it does
 
