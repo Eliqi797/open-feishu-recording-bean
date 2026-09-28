@@ -10,6 +10,12 @@ D3200 / soundcore Work → native mobile app → your server → speech-to-text 
 
 RecordingBean is an unofficial **single-user, self-hosted** project, not a public SaaS or a vendor app. This repository is currently private and requires access to clone. Device transfer, provider calls, and document publishing need separate validation in your own environment.
 
+## Why I built it
+
+I bought the D3200 to capture conversations and ideas whenever they happen. After recording, I still need to keep the original audio, check the transcript, and put useful notes into my own Feishu documents. I wanted to choose where recordings are stored, which ASR and LLM services process them, and how action items are organized. If an AI allowance or service plan changes, I want to keep using the recorder I already own.
+
+RecordingBean began as my personal workflow: sync the recorder to my own server, verify the complete file, then transcribe, summarize, and file it when configured. I later added HarmonyOS, Android, and iOS clients and made provider settings configurable, preparing the project to be shared with others who have similar needs in the future.
+
 ## What it does
 
 | Stage | Current implementation |
