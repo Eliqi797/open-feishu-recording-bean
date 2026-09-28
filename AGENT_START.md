@@ -1,9 +1,9 @@
-# RecordingBean — Agent start
+# Open 飞书录音豆 — Agent start
 
-RecordingBean is an unofficial, single-user, self-hosted workflow for D3200 / soundcore Work recordings. The hardware makes the recording; native HarmonyOS, Android and iOS apps move it to a Python service. The service stores the audio and, when configured, runs ASR, LLM summarization and Feishu / Lark Docs publication.
+Open 飞书录音豆 is an unofficial, single-user, self-hosted workflow for 飞书录音豆 recordings (device model D3200 / soundcore Work). The hardware makes the recording; native HarmonyOS, Android and iOS apps move it to a Python service. The service stores the audio and, when configured, runs ASR, LLM summarization and Feishu / Lark Docs publication.
 
 ~~~text
-D3200 → native phone app → verified cloud audio → ASR → speaker stage → LLM summary → Feishu document
+飞书录音豆 → native phone app → verified cloud audio → ASR → speaker stage → LLM summary → Feishu document
 ~~~
 
 The repository is private. Never assume that a local build, health check or staged task proves that a real device, provider or document has been validated.
@@ -20,7 +20,7 @@ The repository is private. Never assume that a local build, health check or stag
 
 ## Non-negotiable boundaries
 
-- Never delete a D3200 original. Clear phone audio only after a durable server receipt matches size and whole-file SHA-256.
+- Never delete a recorder original. Clear phone audio only after a durable server receipt matches size and whole-file SHA-256.
 - A changing Bluetooth address is not a device identity. Use the validated serial-number digest or stop automatic archival.
 - Keep recordings, credentials, private endpoints, signing and provider responses out of Git and diagnostic output.
 - The recorder hotspot's pinned-certificate exception applies only to that device endpoint; normal cloud HTTPS validation remains in place.
@@ -30,6 +30,6 @@ The repository is private. Never assume that a local build, health check or stag
 
 ## What counts as complete
 
-For an end-to-end claim, verify separately: the completed D3200 file, mobile transfer, matching cloud file and receipt, actual ASR response, speaker stage if enabled, LLM result, Feishu document write, and document readback under the intended identity. Report missing or untested stages explicitly. The [agent guide](docs/AGENT_GUIDE.md) describes safe API queries and retry behavior.
+For an end-to-end claim, verify separately: the completed recorder file, mobile transfer, matching cloud file and receipt, actual ASR response, speaker stage if enabled, LLM result, Feishu document write, and document readback under the intended identity. Report missing or untested stages explicitly. The [agent guide](docs/AGENT_GUIDE.md) describes safe API queries and retry behavior.
 
 This file is a navigation map. Repository coding rules live in [AGENTS.md](AGENTS.md); API behavior must be checked against [docs/API.md](docs/API.md) and the current implementation.

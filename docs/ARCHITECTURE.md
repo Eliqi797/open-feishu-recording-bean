@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart LR
-  D[D3200] -->|BLE 控制 / 实时音频| A[原生手机 App: HarmonyOS / Android / iOS]
+  D[飞书录音豆 / D3200] -->|BLE 控制 / 实时音频| A[原生手机 App: HarmonyOS / Android / iOS]
   D -->|设备热点 WSS 完整录音| A
   A -->|HTTPS 分片 / SHA-256 核验| S[个人云端 Python 服务]
   S --> DB[(SQLite 与音频文件)]

@@ -1,12 +1,14 @@
 # 仓库维护
 
-`Eliqi797/d3200-recording-bean` 是当前源码仓库，保存客户端、服务端、测试、图标和通用文档；旧仓库仅作为私人历史存档。源码仓库不保存录音、数据库、API Key、飞书授权、手机访问口令、调试签名、私人安装包或个人服务器配置。仓库公开与否不改变这些边界。
+`Eliqi797/open-feishu-recording-bean` 是当前源码仓库，保存客户端、服务端、测试、图标和通用文档；旧仓库仅作为私人历史存档。源码仓库不保存录音、数据库、API Key、飞书授权、手机访问口令、调试签名、私人安装包或个人服务器配置。仓库公开与否不改变这些边界。
+
+对外项目名称为 **Open 飞书录音豆**。D3200 仍表示具体设备型号；源码内部的 RecordingBean 工程名、包标识和部署脚本名称保持不变，避免改名破坏现有安装与服务。手机桌面 App 名称不随 GitHub 仓库改名而变化。
 
 ## 获取和检查
 
 ```bash
-git clone https://github.com/Eliqi797/d3200-recording-bean.git
-cd d3200-recording-bean
+git clone https://github.com/Eliqi797/open-feishu-recording-bean.git
+cd open-feishu-recording-bean
 git config core.hooksPath .githooks
 python3 scripts/check_repository.py
 ```

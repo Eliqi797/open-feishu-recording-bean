@@ -1,4 +1,4 @@
-# RecordingBean app icons
+# Open 飞书录音豆 app icons
 
 Generated with the built-in image_gen tool. User supplied the actual circular recorder reference and requested the strap, white and black device variants. White is the bundled default. Original generated PNGs are copied without redrawing.
 

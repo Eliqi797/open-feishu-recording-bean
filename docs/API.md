@@ -1,4 +1,4 @@
-# 录音豆 API v1
+# Open 飞书录音豆 API v1
 
 每个部署使用自己的 HTTPS 地址，例如 `https://recorder.example.com`。服务进程默认仅监听 `127.0.0.1:8765`，由 Nginx 或 Caddy 终结 HTTPS；不要把示例域名当作可用的公共 API。
 

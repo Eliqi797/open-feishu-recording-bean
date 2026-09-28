@@ -1,6 +1,6 @@
-# RecordingBean repository guidance for coding agents
+# Open 飞书录音豆 repository guidance for coding agents
 
-Read [docs/AGENT_GUIDE.md](docs/AGENT_GUIDE.md) for operational API usage and [docs/USER_GUIDE.md](docs/USER_GUIDE.md) for the human setup flow. This repository is a single-user, self-hosted D3200 / soundcore Work recording sync project. Its three native clients, Python service, transcription, summarization, and Feishu publishing have different validation boundaries; never claim an end-to-end result from a build or unit test alone.
+Read [docs/AGENT_GUIDE.md](docs/AGENT_GUIDE.md) for operational API usage and [docs/USER_GUIDE.md](docs/USER_GUIDE.md) for the human setup flow. Open 飞书录音豆 is a single-user, self-hosted recorder sync project for the device model D3200 / soundcore Work. Its three native clients, Python service, transcription, summarization, and Feishu publishing have different validation boundaries; never claim an end-to-end result from a build or unit test alone.
 
 ## Source of truth
 
