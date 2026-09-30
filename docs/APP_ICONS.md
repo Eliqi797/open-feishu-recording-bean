@@ -1,6 +1,6 @@
 # Open 飞书录音豆 app icons
 
-Generated with the built-in image_gen tool. User supplied the actual circular recorder reference and requested the strap, white and black device variants. White is the bundled default. Original generated PNGs are copied without redrawing.
+Generated with the built-in image_gen tool. The project author supplied a reference image of the compatible circular recorder and requested the strap, white and black device variants. White is the bundled default. The original advertisement image is not distributed here. These are unofficial app icons; product names and trademarks remain with their respective owners. See [third-party notices](../THIRD_PARTY_NOTICES.md).
 
 Assets:
 - `harmony/resources/base/media/recordingbean_white.png`
@@ -40,4 +40,4 @@ Official docs: https://developer.huawei.com/consumer/cn/doc/doccenter-capabiliti
 
 Offline signed build succeeded and was installed on the connected phone. Settings > 应用图标 shows both transparent variants with no green backdrop. AppGallery query returned the no-dynamic-data branch; black switching stays unavailable rather than falsely claiming success. The launcher displays the new white recorder and strap over the system's translucent icon treatment, with no green background. Launching the installed app through HDC succeeded; a subsequent launcher tap was not verified because the target was no longer visible. Existing provider settings were not changed.
 
-Evidence: `private/app-icons-transparent-build.log`, `private/impeccable-icons-transparent.jpeg`, `private/impeccable-icons-launcher.jpeg`, `private/app-icons-transparent-state.txt`.
+Private device-test screenshots and logs are not distributed in this repository.

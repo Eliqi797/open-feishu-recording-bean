@@ -8,7 +8,7 @@
 
 [English](README.en.md) · [5 分钟本机启动](#快速开始) · [普通用户指南](docs/USER_GUIDE.md) · [Agent 入口](AGENT_START.md) · [当前验收状态](docs/STATUS_AUDIT.md)
 
-本项目面向**单人自托管**，不是公共 SaaS，也不是 soundcore、飞书或 NVIDIA 的官方产品。仓库目前是 Private；获得访问权限才能克隆。手机连接设备、供应商调用和飞书写入仍需分别在自己的环境验证。
+本项目面向**单人自托管**，不是公共 SaaS，也不是 soundcore、飞书或 NVIDIA 的官方产品。源码按 [MIT 许可证](LICENSE)开放，第三方权利边界见[声明](THIRD_PARTY_NOTICES.md)。手机连接设备、供应商调用和飞书写入仍需分别在自己的环境验证。
 
 ## 我为什么做这个项目
 
@@ -77,6 +77,6 @@ NIM 通过远程 API 调用，不要求本机 GPU 或模型下载；仍需自己
 | 典型问题与方案选择 | [使用场景](docs/USE_CASES.md) · [官方 App 与自托管方案](docs/ALTERNATIVES.md) |
 | 平台差异、已验证与未验证范围 | [跨平台状态](docs/CROSS_PLATFORM.md) · [状态清单](docs/STATUS_AUDIT.md) |
 | 部署、备份与仓库维护 | [部署指南](docs/DEPLOYMENT.md) · [仓库维护](docs/REPOSITORY.md) |
-| 未来公开前的检查 | [可发现性与公开准备](docs/DISCOVERABILITY.md) |
+| 搜索入口与公开维护 | [可发现性与公开维护](docs/DISCOVERABILITY.md) |
 
-录音、数据库、API Key、飞书授权、签名和私人服务器配置均不在 Git 中。重要会议请保留录音豆原件并人工核对转写与纪要；长时间锁屏、超长录音、重叠发言和独立备份恢复仍须在实际环境单独验收。仓库目前未选择开源许可证，也不会因名称调整自动公开。
+录音、数据库、API Key、飞书授权、签名和私人服务器配置均不在 Git 中。重要会议请保留录音豆原件并人工核对转写与纪要；长时间锁屏、超长录音、重叠发言和独立备份恢复仍须在实际环境单独验收。MIT 许可证不代表与硬件厂商或服务商有官方关系。

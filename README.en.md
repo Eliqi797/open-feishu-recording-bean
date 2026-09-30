@@ -8,7 +8,7 @@
 
 [中文文档](README.md) · [Quick start](#quick-start) · [User guide](docs/USER_GUIDE.md) · [Agent start](AGENT_START.md) · [Validation status](docs/STATUS_AUDIT.md)
 
-Open 飞书录音豆 is an unofficial **single-user, self-hosted** project, not a public SaaS or a vendor app. This repository is currently private and requires access to clone. Device transfer, provider calls, and document publishing need separate validation in your own environment.
+Open 飞书录音豆 is an unofficial **single-user, self-hosted** project, not a public SaaS or a vendor app. The source is available under the [MIT License](LICENSE); see the [third-party notices](THIRD_PARTY_NOTICES.md). Device transfer, provider calls, and document publishing need separate validation in your own environment.
 
 ## Why I built it
 
@@ -77,6 +77,6 @@ If an agent is reading, deploying or changing this project, begin with [AGENT_ST
 | Typical questions and trade-offs | [Use cases](docs/USE_CASES.md) · [Official app or self-hosting](docs/ALTERNATIVES.md) |
 | Platform differences and validation limits | [Cross-platform](docs/CROSS_PLATFORM.md) · [Status audit](docs/STATUS_AUDIT.md) |
 | Deployment, backup and source maintenance | [Deployment](docs/DEPLOYMENT.md) · [Repository](docs/REPOSITORY.md) |
-| Future publication review | [Discoverability](docs/DISCOVERABILITY.md) |
+| Discoverability and public maintenance | [Discoverability](docs/DISCOVERABILITY.md) |
 
-Git does not contain recordings, databases, API keys, Feishu authorization, signing material or private server settings. Keep the recorder originals and review important AI output. Long locked-screen sessions, multi-hour recordings, overlapping speakers and independent backup recovery still require separate acceptance. This private repository has no open-source license yet; documentation changes do not make it public.
+Git does not contain recordings, databases, API keys, Feishu authorization, signing material or private server settings. Keep the recorder originals and review important AI output. Long locked-screen sessions, multi-hour recordings, overlapping speakers and independent backup recovery still require separate acceptance. The MIT License does not imply vendor endorsement.

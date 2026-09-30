@@ -6,7 +6,7 @@ Open 飞书录音豆 is an unofficial, single-user, self-hosted workflow for 飞
 飞书录音豆 → native phone app → verified cloud audio → ASR → speaker stage → LLM summary → Feishu document
 ~~~
 
-The repository is private. Never assume that a local build, health check or staged task proves that a real device, provider or document has been validated.
+The repository is public under the MIT License. Never assume that a local build, health check or staged task proves that a real device, provider or document has been validated.
 
 ## Choose an entry point
 
